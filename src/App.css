@@ -14,6 +14,7 @@
 }
 .myPicture {
   height: calc(256px + 10vw);
+  width: auto;
   /* max-height: 30%; */
   border-radius: 50%;
   /* width: 200px; */
@@ -27,7 +28,8 @@
 
 @media screen and (max-width: 600px) {
   .myPicture {
-    height: 200px;
+    height: 250px;
+    width: auto;
   }
   .mainContainer {
     margin: 0px;
@@ -35,5 +37,11 @@
   }
   .contentContainer {
     padding: 20px;
+  }
+  .heading {
+    text-align: center;
+  }
+  p {
+    text-align: center;
   }
 }

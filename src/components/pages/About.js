@@ -14,9 +14,9 @@ function About() {
                         <img src={myPicture} alt="My Picture" className='myPicture contentContainer' />
                     </div>
                 </Col>
-                <Col xs={12} md={7} className='contentContainer'>
-                <div>
-                    <p><h2>Hello, I am Veronica!</h2></p>
+                <Col xs={12} md={7}>
+                <div className='contentContainer'>
+                    <p className='heading'><h2>Hello, I am Veronica!</h2></p>
                     
                     <p>I am currently a final year student at Hong Kong University of Science and Technology, 
                     majoring in <span style={{'font-weight':'bold'}}>Computer Engineering</span> and minoring in <span style={{'font-weight':'bold'}}>Business</span>.</p>
@@ -32,16 +32,16 @@ function About() {
                     <p><span style={{'font-weight':'bold'}}>Connect with me via:</span>
                         <br/>
                         <a href='https://www.linkedin.com/in/veronica-wong-ho-yan/' target="_blank" style={{'text-decoration': 'none', color: 'inherit'}}>
-                            <div className="d-flex flex-row align-items-center" style={{'margin': '5px 5px 5px 0px'}}>
+                            <p style={{'margin': '5px 5px 5px 0px'}}>
                             <img src={LinkedIn} className="social-icon" alt="LinkedIn" /> 
                             <span style={{'font-size': 15}}>Veronica Wong</span>
-                            </div>
+                            </p>
                         </a>
                         <a href='https://www.instagram.com/veronicawonghy/' target="_blank" style={{'text-decoration': 'none', color: 'inherit'}}>
-                            <div className="d-flex flex-row align-items-center" style={{'margin': '5px 5px 5px 0px'}}>
+                            <p style={{'margin': '5px 5px 5px 0px'}}>
                             <img src={Instagram} className="social-icon" alt="Instagram" /> 
                             <span style={{'font-size': 15}}>Personal | @veronicawonghy</span>
-                            </div>
+                            </p>
                         </a>
                     </p>
                 </div>
