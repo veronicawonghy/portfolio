@@ -4,3 +4,10 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
+.mainContainer {
+  padding: 50px;
+}
+.myPicture {
+  height: 256px;
+  /* width: 200px; */
+}
