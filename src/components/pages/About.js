@@ -1,6 +1,8 @@
 import '../../App.css'
-import { Container, Row, Col } from 'react-bootstrap';
-import myPicture from '../../assets/my_picture.jpg';
+import { Container, Row, Col } from 'react-bootstrap'
+import myPicture from '../../assets/my_picture.jpg'
+import Instagram from '../../assets/icons/Instagram.svg'
+import LinkedIn from '../../assets/icons/Linkedin.svg'
 
 function About() {
     return (
@@ -28,11 +30,20 @@ function About() {
 
                     <p>Personally, I like to do yoga, watch Netflix and learn languages. I am learning Korean and French recently! :D</p>
                     
-                    <p>Connect me via:
+                    <p><span style={{'font-weight':'bold'}}>Connect with me via:</span>
                         <br/>
-                        LinkedIn
-                        Instagram
-                        Email
+                        <a href='https://www.linkedin.com/in/veronica-wong-ho-yan/' target="_blank" style={{'text-decoration': 'none', color: 'inherit'}}>
+                            <div className="d-flex flex-row align-items-center" style={{'margin': '5px 5px 5px 0px'}}>
+                            <img src={LinkedIn} className="social-icon" alt="LinkedIn" /> 
+                            <span style={{'font-size': 15}}>Veronica Wong</span>
+                            </div>
+                        </a>
+                        <a href='https://www.instagram.com/veronicawonghy/' target="_blank" style={{'text-decoration': 'none', color: 'inherit'}}>
+                            <div className="d-flex flex-row align-items-center" style={{'margin': '5px 5px 5px 0px'}}>
+                            <img src={Instagram} className="social-icon" alt="Instagram" /> 
+                            <span style={{'font-size': 15}}>Personal | @veronicawonghy</span>
+                            </div>
+                        </a>
                     </p>
                 </div>
                 </Col>
