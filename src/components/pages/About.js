@@ -8,8 +8,8 @@ function About() {
         
         <Container className='mainContainer'>
             <Row>
-                <Col xs={12} md={4}><img src={myPicture} alt="My Picture" className='myPicture contentContainer' /></Col>
-                <Col xs={12} md={8} className='contentContainer'>
+                <Col xs={12} md={5}><img src={myPicture} alt="My Picture" className='myPicture contentContainer' /></Col>
+                <Col xs={12} md={7} className='contentContainer'>
                 <div>
                     <p>Hello, I am Veronica! </p>
                     
