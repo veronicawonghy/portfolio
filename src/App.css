@@ -5,9 +5,15 @@
   font-family: 'Montserrat', sans-serif;
 }
 .mainContainer {
-  padding: 50px;
+  margin: 50px;
+}
+.contentContainer {
+  padding: 20px;
 }
 .myPicture {
-  height: 256px;
+  height: calc(256px + 1vw);
+  /* max-height: 30%; */
+  border-radius: 50%;
   /* width: 200px; */
+  margin: 10px;
 }
