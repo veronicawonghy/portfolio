@@ -11,11 +11,12 @@ import './App.css';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename='/portfolio'>
     {/* <div className="App"> */}
       <Navbar />
       <Switch>
         <Route path='/' exact component={About}/>  
+        <Route path='/about' component={About}/>  
         <Route path='/resume' component={Resume}/>  
         <Route path='/projects' component={Projects}/>
         <Route path='/contact' component={Contact}/>  
