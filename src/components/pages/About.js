@@ -7,7 +7,6 @@ import LinkedIn from '../../assets/icons/Linkedin.svg'
 function About() {
     return (
         <>
-        
         <Container className='mainContainer'>
             <Row>
                 <Col xs={12} md={5}>

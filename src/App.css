@@ -5,6 +5,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 .mainContainer {
+  /* flex-direction: row; */
+  justify-self: center;
   margin: 50px;
 }
 .contentContainer {
@@ -21,4 +23,17 @@
   height:20px;
   width:20px;
   margin: 0px 10px 0px 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .myPicture {
+    height: 200px;
+  }
+  .mainContainer {
+    margin: 0px;
+    padding: 10px;
+  }
+  .contentContainer {
+    padding: 20px;
+  }
 }
